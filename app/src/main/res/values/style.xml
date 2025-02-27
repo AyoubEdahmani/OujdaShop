@@ -1,0 +1,17 @@
+<!-- res/values/styles.xml -->
+<resources>
+    <style name="EditTextStyle">
+        <item name="android:padding">16dp</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textColorHint">@color/hintColor</item>
+        <item name="android:background">@drawable/edit_text_border</item> <!-- إضافة الخلفية مع الحد -->
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:backgroundTint">@color/colorBlack</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+</resources>

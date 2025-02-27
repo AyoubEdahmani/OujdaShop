@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/edit_produit_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_bg"
+        android:hint="Modifier la catégorie"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        />
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="154dp"
+        android:layout_height="109dp"
+        android:layout_gravity="center"
+
+        app:srcCompat="@drawable/logo" />
+    <Button
+        android:id="@+id/addImage2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/grey"
+        android:text="image"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Modifier"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Annuler"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/red"
+        android:textColor="@color/white"/>
+</LinearLayout>
